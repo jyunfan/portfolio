@@ -1,5 +1,5 @@
 
-import profile from './profile.png';
+import profile from './profile.jpg';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,10 +10,12 @@ export const navigation = {
 			title: "About",
 			link: "#about",
 		},
+		/*
 		{
 			title: "Projects",
 			link: "#projects",
 		},
+		*/
 		{
 			title: "Contact",
 			link: "#contact",
@@ -25,8 +27,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Jyun-Fan",
+	description: "Founder of Dorgie, application of AI and automation",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +38,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +47,7 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I'm a recognized data scientist with 15 years of experience in data collection, big data analysis, quantitative trading, and machine learning. My focus is on automation and AI, and I'm passionate about leveraging these technologies to improve business outcomes and solve complex problems. I stay up-to-date with the latest trends and innovations in data science and strive to deliver high-quality work to my clients.",
 	],
 }
 
@@ -55,15 +55,26 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
+			title: "AI App Development",
+			description: "Dorgie Co. Ltd.",
+			icons: [
+				{
+					icon: faAppStore,
+					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/star_book",
+				},
+			]
 		},
+		/*
 		{
 			title: "Web Development",
 			description: "I create responsive static websites using Reactjs.",
 			icons: null,
 		}
+		*/
 	],
 }
 
@@ -113,16 +124,16 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at jftsai@protonmail.com.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:jftsai@protonmail.com",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
+			title: "Company",
+			link: "https://dorgie.com",
 			isPrimary: false,
 		},
 	]
@@ -131,35 +142,27 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Jyun-Fan Tsai | AI | Computer Engineer | Data Scientist",
+	description: "",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@jyunfantsai",
+	description: "AI | Automation | Data Science",
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			link: "https://jyunfantsai.com/",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/jyunfan/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/jyun-fan-tsai/",
 		},
 	]
 }
